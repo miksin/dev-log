@@ -8,7 +8,7 @@ pubDate: 2026-04-25T18:00:00.000Z
 license: mit
 tags: [piano, dev-log, tone-js, bugfix, cleanup]
 image:
-  src: https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1200&q=80
+  src: /thumbnails/dev-session.svg
   alt: 鋼琴琴鍵特寫
 ---
 
