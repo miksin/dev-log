@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0f0e17"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#1e1d2e" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#1e1d2e" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="450" stroke="#1e1d2e" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="450" stroke="#1e1d2e" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="450" stroke="#1e1d2e" stroke-width="1"/>
+  <!-- Bug body (circle) crossed out -->
+  <circle cx="280" cy="225" r="60" fill="#2a1f3d" stroke="#e53e3e" stroke-width="3"/>
+  <!-- Bug legs -->
+  <line x1="220" y1="200" x2="180" y2="180" stroke="#e53e3e" stroke-width="2.5"/>
+  <line x1="220" y1="225" x2="175" y2="225" stroke="#e53e3e" stroke-width="2.5"/>
+  <line x1="220" y1="250" x2="180" y2="270" stroke="#e53e3e" stroke-width="2.5"/>
+  <line x1="340" y1="200" x2="380" y2="180" stroke="#e53e3e" stroke-width="2.5"/>
+  <line x1="340" y1="225" x2="385" y2="225" stroke="#e53e3e" stroke-width="2.5"/>
+  <line x1="340" y1="250" x2="380" y2="270" stroke="#e53e3e" stroke-width="2.5"/>
+  <!-- X over bug -->
+  <line x1="240" y1="185" x2="320" y2="265" stroke="#68d391" stroke-width="4" stroke-linecap="round"/>
+  <line x1="320" y1="185" x2="240" y2="265" stroke="#68d391" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arrow right -->
+  <line x1="380" y1="225" x2="460" y2="225" stroke="#a0aec0" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="460,218 475,225 460,232" fill="#a0aec0"/>
+  <!-- Checkmark -->
+  <circle cx="540" cy="225" r="50" fill="#1a2e1a" stroke="#68d391" stroke-width="3"/>
+  <polyline points="515,225 533,243 568,208" fill="none" stroke="#68d391" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Title -->
+  <text x="400" y="380" font-family="monospace" font-size="22" fill="#cbb7fb" text-anchor="middle" letter-spacing="3">BUGFIX SESSION</text>
+  <text x="400" y="408" font-family="monospace" font-size="13" fill="#4a5568" text-anchor="middle">2026-04-25</text>
+</svg>
