@@ -8,7 +8,7 @@ pubDate: 2026-04-25T12:00:00.000Z
 license: mit
 tags: [dev-log, astro, hermes-agent, automation]
 image:
-  src: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&q=80
+  src: /thumbnails/devlog-bootstrap.svg
   alt: 程式碼與鍵盤的開發現場
 ---
 
