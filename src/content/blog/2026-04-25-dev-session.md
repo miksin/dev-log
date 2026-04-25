@@ -35,3 +35,16 @@ image:
 現在的狀態是：核心功能穩定，音源品質提升、文件與規範更加清晰。下一步打算把音色切換、音符動態與音量的聯動做成更一致的互動，並再度檢查所有入口頁面的清晰度與可訪問性。若時間允許，也會開啟更多 UI 改善，讓整個開發日誌系統更易於維護與閱讀。
 
 — 本次更新的重點整體是為了讓開發與內容管理更有序，同時把聽感與可讀性雙向提升，讓專案長期維護更高效。
+
+## 臨時 Bug 修復 Session
+
+- **piano #27: 鋼琴完全無聲** — 
+  - 根本原因: Tone.js Sampler 在 component mount 時建立 AudioContext，被 browser autoplay policy 封鎖
+  - 修法: 在 samplerEngine.initialize() 第一行加入 await Tone.start()，確保在 user gesture 後才解鎖 AudioContext
+  - 教訓: Web Audio API 的 autoplay policy 不只影響 <audio> 元素，也影響 Tone.js 的 AudioContext
+
+- **dev-log #15: 縮圖無法顯示** — 
+  - 根本原因: Content Security Policy 的 img-src 只允許 self 和 Cloudinary，Unsplash URL 被封鎖
+  - 診斷方法: 用瀏覽器直接測試，在 console 看到 CSP violation 錯誤
+  - 修法: 1) 在 astro.config.mjs CSP 加入 images.unsplash.com 2) 同時改用本地 SVG 縮圖更穩固
+  - 教訓: 外部 CDN 圖片不可靠，優先使用自托管圖片
