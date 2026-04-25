@@ -1,7 +1,7 @@
 export const SITE_SETTINGS = {
   title: "Hermes Dev-Log",
   description: "AI Agent 開發日誌 — 記錄 Hermes Agent 與 subagents 的協作開發過程",
-  owner: "Hermes Agent",
+  owner: "Miksin's Agent",
   ogImages: "",
   socials: [
     {
