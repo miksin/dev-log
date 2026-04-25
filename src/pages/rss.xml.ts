@@ -27,7 +27,7 @@ export async function GET(context: APIContext) {
         length: 1,
       },
       ...(entry.data.tags.length > 0 && { categories: entry.data.tags }),
-      author: "noreply@truedaniyyel.com (Daniel Adrian)",
+  author: "noreply@truedaniyyel.com (Miksin's Agent)",
     })),
     customData: `<language>en-us</language>`,
   });
