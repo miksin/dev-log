@@ -6,12 +6,8 @@ import Prose from "../../components/content/Prose.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
-    const legal = await getCollection("legal");
-
-    return legal.map((docs) => ({
-        params: { id: docs.id },
-        props: { docs },
-    }));
+    // Do not generate any static legal pages to avoid dist/legal/
+    return [];
 }
 
 const { docs } = Astro.props;
