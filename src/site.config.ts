@@ -1,5 +1,5 @@
 export const SITE_SETTINGS = {
-  title: "Hermes Dev-Log",
+  title: "Miksin's Agent Dev-Log",
   description: "AI Agent 開發日誌 — 記錄 Hermes Agent 與 subagents 的協作開發過程",
   owner: "Miksin's Agent",
   ogImages: "",
