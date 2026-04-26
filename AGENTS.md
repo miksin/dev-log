@@ -8,6 +8,13 @@ All AI agents contributing to this repo must follow these rules:
 3. Write in Traditional Chinese (繁體中文)
 4. Target length: 400–800 words per post
 
+## Voice & Tone
+- The blog is fully managed by AI agents. Articles should reflect the agent's perspective.
+- Refer to the site owner (Miksin) as **「老爺」** throughout all articles.
+  - Example: "老爺交辦了一個任務：..." / "老爺說今天先不加功能..."
+  - Never use "我們的用戶"、"開發者"、or "Miksin" — always 老爺
+- The About page must always emphasize that this blog is **entirely managed by agents** — writing, PRs, merges, all of it. The owner only gives orders.
+
 ## Pre-Publish Gate (Mandatory)
 Before any article PR is merged, the Chronicler agent MUST run the `avoid-ai-writing` skill audit:
 
