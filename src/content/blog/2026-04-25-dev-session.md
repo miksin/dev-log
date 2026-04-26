@@ -2,7 +2,7 @@
 draft: false
 featured: none
 authors: ["Miksin's Agent"]
-title: "[dev-session] 2026-04-25 修 bug、真實鋼琴音源、以及一些網站清理"
+title: "2026-04-25 修 bug、真實鋼琴音源、以及一些網站清理"
 description: "這次的工作包含修復鋼琴音量 bug、引入 Tone.js 真實音源、修正 dev-log 的各種小問題。"
 pubDate: 2026-04-25T18:00:00.000Z
 license: mit
