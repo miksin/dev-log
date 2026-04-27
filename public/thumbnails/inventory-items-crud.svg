@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#2a2a4a" stroke-width="1"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#2a2a4a" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#e2e8f0">inventory / items CRUD</text>
+  <text x="400" y="72" text-anchor="middle" font-family="monospace" font-size="14" fill="#64748b">Phase 4 — PR #13 merged 2026-04-27</text>
+
+  <!-- API boxes -->
+  <rect x="60" y="100" width="200" height="60" rx="8" fill="#0f3460" stroke="#1e40af" stroke-width="2"/>
+  <text x="160" y="126" text-anchor="middle" font-family="monospace" font-size="13" fill="#93c5fd">GET /api/items</text>
+  <text x="160" y="148" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">search / filter / sort</text>
+
+  <rect x="60" y="175" width="200" height="60" rx="8" fill="#0f3460" stroke="#1e40af" stroke-width="2"/>
+  <text x="160" y="201" text-anchor="middle" font-family="monospace" font-size="13" fill="#93c5fd">POST /api/items</text>
+  <text x="160" y="223" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">create + activity log</text>
+
+  <rect x="60" y="250" width="200" height="60" rx="8" fill="#0f3460" stroke="#1e40af" stroke-width="2"/>
+  <text x="160" y="276" text-anchor="middle" font-family="monospace" font-size="13" fill="#93c5fd">PUT/DELETE /api/items/[id]</text>
+  <text x="160" y="298" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">diff log on update</text>
+
+  <!-- Arrow -->
+  <line x1="270" y1="200" x2="340" y2="200" stroke="#4ade80" stroke-width="2"/>
+  <polygon points="340,195 352,200 340,205" fill="#4ade80"/>
+
+  <!-- Pages box -->
+  <rect x="360" y="100" width="200" height="210" rx="8" fill="#0d2b1a" stroke="#166534" stroke-width="2"/>
+  <text x="460" y="124" text-anchor="middle" font-family="monospace" font-size="13" fill="#86efac">Svelte Pages</text>
+  <text x="460" y="150" text-anchor="middle" font-family="monospace" font-size="11" fill="#4ade80">/items</text>
+  <text x="460" y="170" text-anchor="middle" font-family="monospace" font-size="11" fill="#4ade80">/items/new</text>
+  <text x="460" y="190" text-anchor="middle" font-family="monospace" font-size="11" fill="#4ade80">/items/[id]</text>
+  <text x="460" y="210" text-anchor="middle" font-family="monospace" font-size="11" fill="#4ade80">/items/[id]/edit</text>
+  <line x1="380" y1="224" x2="540" y2="224" stroke="#166534" stroke-width="1"/>
+  <text x="460" y="245" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">6 routes total</text>
+  <text x="460" y="265" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">client-side fetch</text>
+  <text x="460" y="285" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">(Cloudflare Workers)</text>
+
+  <!-- Tests box -->
+  <rect x="590" y="100" width="160" height="210" rx="8" fill="#1a0a2e" stroke="#6d28d9" stroke-width="2"/>
+  <text x="670" y="124" text-anchor="middle" font-family="monospace" font-size="13" fill="#c4b5fd">Vitest</text>
+  <text x="670" y="150" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#a78bfa">40</text>
+  <text x="670" y="172" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748b">total tests pass</text>
+  <line x1="610" y1="185" x2="730" y2="185" stroke="#6d28d9" stroke-width="1"/>
+  <text x="670" y="205" text-anchor="middle" font-family="monospace" font-size="11" fill="#c4b5fd">+16 new</text>
+  <text x="670" y="225" text-anchor="middle" font-family="monospace" font-size="10" fill="#64748b">tags serialization</text>
+  <text x="670" y="243" text-anchor="middle" font-family="monospace" font-size="10" fill="#64748b">expiry bounds</text>
+  <text x="670" y="261" text-anchor="middle" font-family="monospace" font-size="10" fill="#64748b">low_stock logic</text>
+  <text x="670" y="279" text-anchor="middle" font-family="monospace" font-size="10" fill="#64748b">utils coverage</text>
+
+  <!-- Status bar -->
+  <rect x="60" y="340" width="680" height="36" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="80" y="364" font-family="monospace" font-size="13" fill="#4ade80">✓ squash merged</text>
+  <text x="240" y="364" font-family="monospace" font-size="13" fill="#60a5fa">GitHub #12 closed</text>
+  <text x="420" y="364" font-family="monospace" font-size="13" fill="#c4b5fd">Linear MIK-22 Done</text>
+  <text x="610" y="364" font-family="monospace" font-size="13" fill="#f59e0b">Phase 4 complete</text>
+</svg>
