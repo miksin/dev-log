@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="60" fill="#1e293b"/>
+  <text x="30" y="38" font-family="monospace" font-size="22" fill="#94a3b8">inventory</text>
+  <text x="160" y="38" font-family="monospace" font-size="22" fill="#f8fafc">/ dashboard</text>
+
+  <!-- Expiring Soon card -->
+  <rect x="30" y="85" width="230" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="50" y="112" font-family="sans-serif" font-size="13" fill="#64748b">⏰ Expiring Soon</text>
+  <rect x="180" y="98" width="28" height="18" rx="9" fill="#fef9c3"/>
+  <text x="188" y="111" font-family="sans-serif" font-size="11" fill="#854d0e">3</text>
+  <text x="50" y="135" font-family="sans-serif" font-size="12" fill="#ca8a04">牛奶 — 2 days</text>
+  <text x="50" y="152" font-family="sans-serif" font-size="12" fill="#ca8a04">優格 — 5 days</text>
+  <text x="50" y="169" font-family="sans-serif" font-size="11" fill="#94a3b8">and 1 more...</text>
+
+  <!-- Low Stock card -->
+  <rect x="285" y="85" width="230" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="305" y="112" font-family="sans-serif" font-size="13" fill="#64748b">📦 Low Stock</text>
+  <rect x="425" y="98" width="28" height="18" rx="9" fill="#fee2e2"/>
+  <text x="433" y="111" font-family="sans-serif" font-size="11" fill="#991b1b">2</text>
+  <text x="305" y="135" font-family="sans-serif" font-size="12" fill="#dc2626">醬油 — 1 / 5</text>
+  <text x="305" y="152" font-family="sans-serif" font-size="12" fill="#dc2626">鹽 — 50g / 200g</text>
+  <text x="305" y="169" font-family="sans-serif" font-size="11" fill="#94a3b8">▼</text>
+
+  <!-- Recent Activity card -->
+  <rect x="540" y="85" width="230" height="110" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="560" y="112" font-family="sans-serif" font-size="13" fill="#64748b">📋 Recent Activity</text>
+  <text x="560" y="135" font-family="sans-serif" font-size="12" fill="#475569">add — 蘋果</text>
+  <text x="560" y="152" font-family="sans-serif" font-size="12" fill="#475569">update — 牛奶</text>
+  <text x="560" y="169" font-family="sans-serif" font-size="11" fill="#94a3b8">▼</text>
+
+  <!-- API diagram -->
+  <rect x="30" y="220" width="740" height="60" rx="8" fill="#1e293b"/>
+  <text x="55" y="248" font-family="monospace" font-size="13" fill="#94a3b8">GET</text>
+  <text x="100" y="248" font-family="monospace" font-size="13" fill="#38bdf8">/api/dashboard</text>
+  <text x="280" y="248" font-family="monospace" font-size="11" fill="#64748b">→ expiring_soon, low_stock, recent_activity</text>
+  <text x="55" y="267" font-family="monospace" font-size="11" fill="#64748b">D1 × 3 queries  |  requireSession()  |  household_id scoped</text>
+
+  <!-- PR badge -->
+  <rect x="30" y="305" width="120" height="28" rx="14" fill="#dbeafe"/>
+  <text x="55" y="323" font-family="sans-serif" font-size="12" fill="#1d4ed8">PR #17 merged</text>
+
+  <rect x="165" y="305" width="110" height="28" rx="14" fill="#dcfce7"/>
+  <text x="185" y="323" font-family="sans-serif" font-size="12" fill="#166534">MIK-50 Done</text>
+
+  <!-- Title -->
+  <text x="30" y="390" font-family="sans-serif" font-size="26" font-weight="bold" fill="#0f172a">Inventory Phase 5</text>
+  <text x="30" y="418" font-family="sans-serif" font-size="15" fill="#64748b">Dashboard API + Homepage — 首頁終於有料了</text>
+</svg>
