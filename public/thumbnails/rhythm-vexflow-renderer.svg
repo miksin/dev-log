@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#1a1a2e"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="800" height="4" fill="#e94560"/>
+
+  <!-- Title text -->
+  <text x="60" y="80" font-family="monospace" font-size="28" font-weight="bold" fill="#e2e2f0">rhythm app</text>
+  <text x="60" y="118" font-family="monospace" font-size="18" fill="#a0a0c0">VexFlow Renderer + ExerciseSheet</text>
+
+  <!-- Staff lines (5-line notation staff) -->
+  <g transform="translate(60, 160)">
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#4a4a6a" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="680" y2="12" stroke="#4a4a6a" stroke-width="1.5"/>
+    <line x1="0" y1="24" x2="680" y2="24" stroke="#4a4a6a" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="680" y2="36" stroke="#4a4a6a" stroke-width="1.5"/>
+    <line x1="0" y1="48" x2="680" y2="48" stroke="#4a4a6a" stroke-width="1.5"/>
+
+    <!-- Clef symbol (simplified) -->
+    <text x="8" y="44" font-family="serif" font-size="52" fill="#e94560" opacity="0.8">𝄞</text>
+
+    <!-- Time signature -->
+    <text x="46" y="28" font-family="serif" font-size="20" font-weight="bold" fill="#c0c0e0">4</text>
+    <text x="46" y="50" font-family="serif" font-size="20" font-weight="bold" fill="#c0c0e0">4</text>
+
+    <!-- Bar line 1 -->
+    <line x1="72" y1="-2" x2="72" y2="50" stroke="#6a6a8a" stroke-width="1"/>
+
+    <!-- Notes measure 1 (quarter notes) -->
+    <!-- Note 1 -->
+    <ellipse cx="100" cy="36" rx="8" ry="6" fill="#e2e2f0" transform="rotate(-15 100 36)"/>
+    <line x1="108" y1="36" x2="108" y2="4" stroke="#e2e2f0" stroke-width="2"/>
+    <text x="94" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ta</text>
+
+    <!-- Note 2 -->
+    <ellipse cx="150" cy="24" rx="8" ry="6" fill="#e2e2f0" transform="rotate(-15 150 24)"/>
+    <line x1="158" y1="24" x2="158" y2="-8" stroke="#e2e2f0" stroke-width="2"/>
+    <text x="144" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ti</text>
+
+    <!-- Note 3 (eighth pair) -->
+    <ellipse cx="200" cy="36" rx="7" ry="5" fill="#e2e2f0" transform="rotate(-15 200 36)"/>
+    <line x1="207" y1="36" x2="207" y2="4" stroke="#e2e2f0" stroke-width="2"/>
+    <ellipse cx="228" cy="36" rx="7" ry="5" fill="#e2e2f0" transform="rotate(-15 228 36)"/>
+    <line x1="235" y1="36" x2="235" y2="4" stroke="#e2e2f0" stroke-width="2"/>
+    <!-- beam -->
+    <line x1="207" y1="4" x2="235" y2="4" stroke="#e2e2f0" stroke-width="3"/>
+    <text x="194" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ti</text>
+    <text x="222" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ti</text>
+
+    <!-- Bar line 2 -->
+    <line x1="258" y1="-2" x2="258" y2="50" stroke="#6a6a8a" stroke-width="1"/>
+
+    <!-- Measure 2 -->
+    <ellipse cx="286" cy="30" rx="8" ry="6" fill="#e2e2f0" transform="rotate(-15 286 30)"/>
+    <line x1="294" y1="30" x2="294" y2="-2" stroke="#e2e2f0" stroke-width="2"/>
+    <text x="280" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ta</text>
+
+    <!-- rest symbol -->
+    <text x="325" y="26" font-family="serif" font-size="22" fill="#e94560" opacity="0.7">𝄽</text>
+    <text x="320" y="72" font-family="monospace" font-size="11" fill="#555580">—</text>
+
+    <ellipse cx="370" cy="24" rx="7" ry="5" fill="#e2e2f0" transform="rotate(-15 370 24)"/>
+    <line x1="377" y1="24" x2="377" y2="-8" stroke="#e2e2f0" stroke-width="2"/>
+    <ellipse cx="398" cy="24" rx="7" ry="5" fill="#e2e2f0" transform="rotate(-15 398 24)"/>
+    <line x1="405" y1="24" x2="405" y2="-8" stroke="#e2e2f0" stroke-width="2"/>
+    <line x1="377" y1="-8" x2="405" y2="-8" stroke="#e2e2f0" stroke-width="3"/>
+    <text x="364" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ti</text>
+    <text x="392" y="72" font-family="monospace" font-size="11" fill="#7c7caa">ti</text>
+
+    <!-- Bar line 3 -->
+    <line x1="428" y1="-2" x2="428" y2="50" stroke="#6a6a8a" stroke-width="1"/>
+
+    <!-- Syllable label -->
+    <text x="436" y="72" font-family="monospace" font-size="10" fill="#555580">syllables overlay</text>
+  </g>
+
+  <!-- Component labels -->
+  <rect x="60" y="290" width="160" height="36" rx="6" fill="#16213e" stroke="#e94560" stroke-width="1.5"/>
+  <text x="140" y="313" font-family="monospace" font-size="13" fill="#e94560" text-anchor="middle">renderer.ts</text>
+
+  <rect x="250" y="290" width="180" height="36" rx="6" fill="#16213e" stroke="#7c7cff" stroke-width="1.5"/>
+  <text x="340" y="313" font-family="monospace" font-size="13" fill="#7c7cff" text-anchor="middle">ExerciseSheet.tsx</text>
+
+  <rect x="460" y="290" width="160" height="36" rx="6" fill="#16213e" stroke="#4ecca3" stroke-width="1.5"/>
+  <text x="540" y="313" font-family="monospace" font-size="13" fill="#4ecca3" text-anchor="middle">renderer.test.ts</text>
+
+  <!-- Arrows between components -->
+  <line x1="220" y1="308" x2="248" y2="308" stroke="#666688" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="430" y1="308" x2="458" y2="308" stroke="#666688" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#666688"/>
+    </marker>
+  </defs>
+
+  <!-- Bottom info -->
+  <text x="60" y="380" font-family="monospace" font-size="12" fill="#555580">rhythm · PR #13 · 2026-04-28</text>
+  <text x="740" y="380" font-family="monospace" font-size="12" fill="#e94560" text-anchor="end">✓ merged</text>
+</svg>
